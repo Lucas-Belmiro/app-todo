@@ -1,0 +1,30 @@
+.icon-button {
+  width: 2rem;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon-button-trash {
+  width: 1.4rem;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon-button-trash:hover {
+  transform: scale(1.05);
+}
+
+.icon-button:hover {
+  transform: scale(1.05);
+}
+
+.buttons-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.list-items{
+    margin-bottom: 5rem;
+}
