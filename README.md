@@ -14,17 +14,7 @@ Projeto de Lista de Tarefas interativa.  [Acesse o aplicativo aqui](https://app-
 
 ![todo-demons](https://github.com/Lucas-Belmiro/social-media-links/assets/103300371/b3d1285a-7bf2-4203-95a3-fe4d75fed9e8)
 
-
-
-
-## Screenshots
-
-![todo-desktop](https://github.com/Lucas-Belmiro/social-media-links/assets/103300371/b374849b-2289-4f37-a8ac-e380b3eb964c)
-
-
-![todo-mobile](https://github.com/Lucas-Belmiro/social-media-links/assets/103300371/132c97f7-a70d-4e1a-9386-bb7e041a9f06)
-
-
+![todo-demons2](https://github.com/Lucas-Belmiro/social-media-links/assets/103300371/cb70fcfc-c315-4676-9540-4e993980ebd6)
 
 
 

@@ -1,66 +1,66 @@
-
-:root{
-    --color-primary: #2f59d8;
+:root {
+  --color-primary: #2f59d8;
+  height: 100vh;
 }
 
 footer {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 61px;
-    background-color: var(--color-primary);
-    margin-top: 20px;
-    bottom: 0;
-  }
-  
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 61px;
+  background-color: var(--color-primary);
+  margin-top: 20px;
+  bottom: 0;
+}
+
+.container-footer {
+  background-color: var(--color-primary);
+  color: #fff;
+  font-family: Archivo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+footer p,
+footer img {
+  background-color: var(--color-primary);
+}
+
+.section-creator {
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1120px;
+}
+
+@media (max-width: 600px) {
   .container-footer {
-    background-color: var(--color-primary);
-    color: #fff;
-    font-family: Archivo;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
-  
-  footer p,
-  footer img {
-    background-color: var(--color-primary);
-  }
-  
-  .section-creator {
-    background-color: var(--color-primary);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
     gap: 20px;
   }
-  
+  .container-footer p {
+    max-width: 300px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1200px) {
   .container-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1120px;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
   }
-  
-  @media (max-width: 600px) {
-    .container-footer {
-      flex-direction: column;
-      padding-top: 40px;
-      padding-bottom: 40px;
-      gap: 20px;
-    }
-    .container-footer p {
-      max-width: 300px;
-      text-align: center;
-    }
-  }
-  
-  @media (max-width: 1200px) {
-    .container-footer {
-      flex-direction: column;
-      padding: 40px;
-      gap: 20px;
-    }
-  }
+}
