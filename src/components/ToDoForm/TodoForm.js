@@ -22,7 +22,7 @@ function TodoForm(props) {
     <form className="form-container">
       <input placeholder="Insira aqui a sua atividade" className="input-task" onChange={handleChange} type="text" value={text}></input>
       <button onClick={addItem}>
-        <img alt="icon plus button" src="./assets/button-plus.png"></img>
+        <img alt="icon plus button" src="./assets/images/button-plus.png"></img>
         Adicionar atividade</button>
     </form>
   );

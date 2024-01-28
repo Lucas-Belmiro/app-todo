@@ -41,7 +41,7 @@ ul {
   box-sizing: border-box;
   padding: 1.5rem;
 
-  color: rgba(87, 116, 205);
+  color: var(--color-primary);
   font-family: Inter;
   font-size: 24px;
   font-style: normal;
@@ -59,7 +59,7 @@ ul {
 .main-title {
   width: 271px;
 
-  color: #5774cd;
+  color: var(--color-primary);
   font-family: Inter;
   font-size: 48px;
   font-style: normal;
@@ -74,4 +74,18 @@ ul {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+@media screen and (max-width: 730px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .main-title{
+    text-align: center;
+  }
+  .subtitle{
+    text-align: center;
+  }
 }

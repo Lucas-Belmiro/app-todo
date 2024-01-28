@@ -1,9 +1,10 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import "./Todo.css";
-import List from "./components/List";
-import TodoForm from "./components/TodoForm";
-import Item from "./components/Item";
+import List from "../components/List/List";
+import TodoForm from "../components/ToDoForm/TodoForm";
+import Item from "../components/Item/Item";
+import Footer from "../components/Footer/Footer";
 
 const SAVED_ITEMS = "savedItems";
 
@@ -51,7 +52,7 @@ function Todo() {
       <header className="hero">
         <div className="container">
           <h1 className="main-title">LISTA DE TAREFAS</h1>
-          <img alt="person in work" src="./assets/hero-img.png"></img>
+          <img alt="person in work" src="./assets/images/hero-img.png"></img>
         </div>
       </header>
       <div className="container">
@@ -65,6 +66,7 @@ function Todo() {
           items={items}
         ></List>
       </div>
+      <Footer></Footer>
     </>
   );
 }

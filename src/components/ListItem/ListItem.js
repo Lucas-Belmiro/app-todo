@@ -1,15 +1,15 @@
 import React from "react";
-import "./List.css";
-import Card from "./Card";
+import "../List/List.css";
+import Card from "../Card/Card";
 
 function DoneImg(props) {
   if (props.done) {
     return (
-      <img className="icon-button" alt="done" src="./assets/botão-ativo.svg"></img>
+      <img className="icon-button" alt="done" src="./assets/images/botão-ativo.svg"></img>
     );
   } else {
     return (
-      <img className="icon-button" alt="undone" src="./assets/botão-inativo.svg"></img>
+      <img className="icon-button" alt="undone" src="./assets/images/botão-inativo.svg"></img>
     );
   }
 }
@@ -36,7 +36,7 @@ function ListItem(props) {
             <img
               className="icon-button-trash"
               alt="delete Item"
-              src="./assets/lixeira.svg"
+              src="./assets/images/lixeira.svg"
             ></img>
           </button>
         </div>

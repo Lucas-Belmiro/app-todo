@@ -15,8 +15,8 @@
   padding: 20px;
 
   border-radius: 10px;
-  border: 2px solid #5774cd;
-  color: rgba(87, 116, 205);
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
   font-family: Inter;
   font-size: 24px;
   font-style: normal;
@@ -31,7 +31,7 @@
   margin-top: 4%;
 
   border-radius: 8px;
-  background: #5774cd;
+  background: var(--color-primary);
 
   color: rgb(255, 255, 255);
   font-family: Inter;
